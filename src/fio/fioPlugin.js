@@ -18,7 +18,7 @@ import { FioEngine } from './fioEngine'
 import { currencyInfo } from './fioInfo.js'
 import { CurrencyPlugin } from '../common/plugin.js'
 import { getFetchJson } from '../react-native-io.js'
-import { FIOSDK } from 'react-native-fio'
+import { FIOSDK } from '@dapix/react-native-fio'
 
 export function checkAddress (address: string): boolean {
   const start = address.startsWith('FIO')

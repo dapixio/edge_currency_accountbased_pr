@@ -27,7 +27,7 @@ import { FioPlugin, checkAddress, eosConfig } from './fioPlugin.js'
 
 import { SymbolDisplayPartKind } from 'typescript'
 
-import { FIOSDK } from 'react-native-fio'
+import { FIOSDK } from '@dapix/react-native-fio'
 
 const ADDRESS_POLL_MILLISECONDS = 10000
 const BLOCKCHAIN_POLL_MILLISECONDS = 15000
